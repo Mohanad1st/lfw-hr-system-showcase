@@ -4,11 +4,11 @@
 
 <p align="center" dir="rtl" lang="ar">نظام الموارد البشرية: الحضور والإجازات والعمل الإضافي والموافقات</p>
 
-> **This is a showcase, not the code.** The source is private because the system handles real operations for real people. Nothing here is needed to run it, and nothing here reveals how it is secured. A live walkthrough is available on request.
+> **This is a showcase, not the code.** The source is private because it holds real staff records. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
 
 ## The problem
 
-Life From Water's staff work across offices and field sites. Clocking in, requesting leave or overtime, and getting expense requests approved used to happen over messages and paper — and because attendance feeds payroll, a lost or duplicated record costs someone real money. This system replaced that with one bilingual place for the whole flow, without paying for a commercial HR subscription.
+Life From Water's staff work across offices and field sites. Clocking in, requesting leave or overtime, and getting expense requests approved used to happen over messages and paper — and because attendance feeds payroll, a lost record costs someone real money. This system replaced that with one bilingual place for the whole flow, without paying for a commercial HR subscription.
 
 ## What it does
 
@@ -42,8 +42,8 @@ React · Tailwind CSS · Python (FastAPI) · PostgreSQL · managed auth and stor
 
 ## Built responsibly
 
-- Role-based access for employees, managers, HR, finance and leadership
-- Every approval and admin action is recorded in an audit log
+- Role-based access for staff, managers and HR, with a separate finance approval path
+- Approvals and admin actions are recorded in an audit log
 - Automated backend tests run on every change
 - Full Arabic and right-to-left layout, with documentation kept in both languages
 
@@ -53,7 +53,7 @@ React · Tailwind CSS · Python (FastAPI) · PostgreSQL · managed auth and stor
 
 ## More from Life From Water
 
-- [Ameen](https://github.com/Mohanad1st/ameen-showcase) — A finance desk you talk to — and that won't let donation money go astray
+- [Ameen](https://github.com/Mohanad1st/ameen-showcase) — A finance desk you talk to, built to stop donation money being misfiled
 - [Life From Water — donation platform](https://github.com/Mohanad1st/lifefromwater-website-showcase) — Donations and impact you can check, for a water-access NGO in rural Egypt
 - [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) — An evidence-first pipeline for grants, fellowships and tenders
 
